@@ -1,21 +1,21 @@
-Class Point {
-  private int x;
-  private int y;
+public class Point {
+  private float x;
+  private float y;
 
   //GETTERS & SETTERS
-  public int getX(){
+  public float getX(){
     return this.x;
   }
 
-  public void setX(x){
+  public void setX(float x){
     this.x = x;
   }
   
-  public int getY(){
-    return this.x;
+  public float getY(){
+    return this.y;
   }
 
-  public void setY(y){
+  public void setY(float y){
     this.y = y;
   }
 }

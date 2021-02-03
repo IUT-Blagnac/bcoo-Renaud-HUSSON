@@ -1,0 +1,12 @@
+@startuml Point
+
+hide circle
+hide empty members
+hide empty methods
+
+class Point {
+  x
+  y
+}
+
+@enduml
