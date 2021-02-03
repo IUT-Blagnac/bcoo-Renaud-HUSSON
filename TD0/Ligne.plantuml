@@ -1,0 +1,14 @@
+@startuml Ligne
+'--------------------------------
+' Parametres pour le dessin
+'--------------------------------
+hide circle
+hide empty members
+hide empty methods
+'--------------------------------
+
+class Ligne {
+pointDebut
+pointFin
+}
+@enduml
