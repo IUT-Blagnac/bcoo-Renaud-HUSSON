@@ -1,0 +1,39 @@
+@startuml Ligne
+
+hide circle
+hide empty members
+hide empty methods
+
+class Concours {
+  ville
+  date
+}
+
+class Race {}
+
+class Chien {
+  id
+  nom
+  dateDeNaissance
+  sexe
+}
+
+class Proprietaire {
+  nom
+  adresse
+}
+
+class Classement {
+  place
+}
+
+class Ville {
+  nom
+}
+
+(Chien, Concours) . Classement
+Proprietaire "10" -- "1" Chien
+Chien - "1" Race
+Ville "1" - Concours
+
+@enduml
